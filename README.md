@@ -54,3 +54,16 @@ pytest -vvv -s tests/
 # pytest --cov
 # open htmlcov/index.html
 ```
+
+### OR Run as a Docker Container
+
+## Prerequisites
+
+- Docker installed on your machine. You can download it from [Docker Hub](https://docs.docker.com/get-docker/).
+
+## Running the App
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
