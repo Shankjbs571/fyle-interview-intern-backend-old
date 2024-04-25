@@ -67,3 +67,13 @@ pytest -vvv -s tests/
 
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
+2. Build the Docker image:
+
+   ```bash
+   docker-compose build
+
+3. Run the Docker container:
+
+   ```bash
+   docker-compose up
