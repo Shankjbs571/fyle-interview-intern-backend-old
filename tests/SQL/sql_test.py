@@ -104,6 +104,4 @@ def test_get_grade_A_assignments_for_teacher_with_max_grading():
     """
     sql_result_2 = db.session.execute(text(sql_teacher_2)).fetchall()
     assert grade_a_count_2 == sql_result_2[0][0]
-    # sql_result_2 = db.session.execute(text(sql + " WHERE teacher_id = 2")).fetchall()
-    # assert grade_a_count_2 == sql_result_2[0][0]
 
